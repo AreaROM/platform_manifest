@@ -5,6 +5,9 @@
            fetch="http://github.com/AreaROM/"
            revision="2.3.7" />
 
+  <remote  name="teameos"
+           fetch="https://github.com/" />
+
   <remote  name="aosp"
            fetch=".." />
   <default revision="gingerbread"
@@ -177,6 +180,7 @@
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
   <project path="prebuilt" name="android_prebuilt" remote="aa51" />
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.9.2" name="arm-eabi-4.9.2" remote="aa51" revision="pure_gcc" />
+  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.9-linaro" name="teameos/prebuilts_gcc_linux-x86_arm_arm-eabi-4.9-linaro" remote="teameos" revision="kk4.4" />
   <project path="sdk" name="platform/sdk" revision="tools_r7" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="android_system_core" remote="aa51" />
