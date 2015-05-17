@@ -175,7 +175,7 @@
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
   <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
-  <project path="prebuilt" name="platform/prebuilt" />
+  <project path="prebuilt" name="android_prebuilt" remote="aa51" />
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.9.2" name="arm-eabi-4.9.2" remote="aa51" revision="pure_gcc" />
   <project path="sdk" name="platform/sdk" revision="tools_r7" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
