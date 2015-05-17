@@ -11,7 +11,7 @@
            remote="aosp"
            sync-j="16" />
 
-  <project path="build" name="platform/build">
+  <project path="build" name="android_build" remote="aa51">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="platform/bionic" />
@@ -178,11 +178,11 @@
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" revision="tools_r7" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform/system/core" />
-  <project path="system/extras" name="platform/system/extras" />
+  <project path="system/core" name="android_system_core" remote="aa51" />
+  <project path="system/extras" name="android_system_extras" remote="aa51" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
-
+  <project path="vendor/arearom" name="android_vendor_arearom" remote="aa51" />
 </manifest>
