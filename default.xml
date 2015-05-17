@@ -8,6 +8,9 @@
   <remote  name="teameos"
            fetch="https://github.com/" />
 
+  <remote  name="CyanogenMod"
+           fetch="http://github.com/" />
+
   <remote  name="aosp"
            fetch=".." />
   <default revision="gingerbread"
@@ -190,4 +193,11 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
   <project path="vendor/arearom" name="android_vendor_arearom" remote="aa51" />
+
+  <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="CyanogenMod" revision="gingerbread" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" remote="CyanogenMod" revision="gingerbread" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" remote="CyanogenMod" revision="gingerbread" />
+  <project path="vendor/tmobile/themes/Androidian" name="CyanogenMod/android_vendor_tmobile_themes_Androidian" remote="CyanogenMod" revision="gingerbread" />
+  <project path="vendor/tmobile/themes/Cyanbread" name="CyanogenMod/android_vendor_tmobile_themes_Cyanbread" remote="CyanogenMod" revision="gingerbread" />
+  <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" remote="CyanogenMod" revision="gingerbread" />
 </manifest>
