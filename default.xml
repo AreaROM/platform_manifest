@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="aa51" 
+           fetch="http://github.com/AreaROM/"
+           revision="2.3.7" />
+
   <remote  name="aosp"
            fetch=".." />
   <default revision="gingerbread"
            remote="aosp"
-           sync-j="4" />
+           sync-j="16" />
 
   <project path="build" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile" />
