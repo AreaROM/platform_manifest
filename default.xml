@@ -8,6 +8,10 @@
            revision="5.1.1"
            fetch="https://github.com/AreaROM" />
 
+  <remote  name="deso"
+           revision="lp5.1"
+           fetch="https://github.com/DesolationRom-legacy" />
+
   <default revision="refs/tags/android-5.1.1_r4"
            remote="aosp"
            sync-j="4" />
