@@ -528,5 +528,5 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-
+  <project path="vendor/arearom" name="android_vendor_arearom" remote="arearom" revision="5.1.1" />
 </manifest>
