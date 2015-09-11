@@ -3,11 +3,16 @@
 
   <remote  name="aosp"
            fetch=".." />
+  
+  <remote  name="arearom"
+           revision="5.1.1"
+           fetch="https://github.com/AreaROM" />
+
   <default revision="refs/tags/android-5.1.1_r4"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk,tradefed" >
+  <project path="build" name="android_build" groups="pdk,tradefed" remote="arearom" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
