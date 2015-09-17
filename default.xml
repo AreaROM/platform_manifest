@@ -17,6 +17,10 @@
            revision="lp5.1"
            fetch="https://github.com/DesolationRom-legacy" />
 
+  <remote  name="muppet"
+           revision="cm-12.1"
+           fetch="https://github.com/TheMuppets" />
+
   <default remote="aosp"
            revision="refs/tags/android-5.1.1_r18"
            sync-j="16" />
@@ -534,4 +538,13 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor/arearom" name="android_vendor_arearom" remote="arearom" revision="5.1.1" />
+
+<!-- Vendor files for devices, looks neater this way -->
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="muppet" />
+  <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="muppet" />
+  <project path="vendor/elan" name="proprietary_vendor_elan" remote="muppet" />
+  <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="muppet" />
+  <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="muppet" />
+  <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="muppet" />
+  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="muppet" />
 </manifest>
